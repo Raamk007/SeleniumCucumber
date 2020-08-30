@@ -1,139 +1,128 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="runners.RunTest" time="61.645" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.RunTest" time="63.06" tests="2" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="JOB_NAME" value="commerce_cucumber_selenium"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/commerce_cucumber_selenium/2/display/redirect?page=tests"/>
-    <property name="NUMBER_OF_PROCESSORS" value="8"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="JENKINS_HOME" value="C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins"/>
-    <property name="HUDSON_SERVER_COOKIE" value="385af4e807faecb5"/>
-    <property name="POM_ARTIFACTID" value="nopCommerce_Cucumber"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
-    <property name="POM_DISPLAYNAME" value="nopCommerce_Cucumber"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="TEMP" value="C:\Windows\TEMP"/>
-    <property name="NODE_LABELS" value="master"/>
-    <property name="java.runtime.version" value="11.0.6+8-LTS"/>
-    <property name="WINSW_SERVICE_ID" value="jenkins"/>
-    <property name="user.name" value="LAPTOP-UN12E1CR$"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
-    <property name="ProgramFiles" value="C:\Program Files"/>
-    <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="commerce_cucumber_selenium"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/commerce_cucumber_selenium/2/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#2"/>
-    <property name="OneDrive" value="C:\Windows\system32\config\systemprofile\OneDrive"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.6\bin"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
-    <property name="java.version" value="11.0.6"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="PROCESSOR_LEVEL" value="6"/>
-    <property name="USERNAME" value="LAPTOP-UN12E1CR$"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="NODE_NAME" value="master"/>
-    <property name="BUILD_ID" value="2"/>
+    <property name="java.specification.version" value="14"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="maven.conf" value="C:\apache-maven-3.6.3\conf"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="55.0"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
-    <property name="user.country" value="IN"/>
-    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.6"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/commerce_cucumber_selenium/2/display/redirect"/>
-    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
-    <property name="TMP" value="C:\Windows\TEMP"/>
-    <property name="path.separator" value=";"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/commerce_cucumber_selenium/2/display/redirect?page=artifacts"/>
-    <property name="java.vm.version" value="11.0.6+8-LTS"/>
-    <property name="user.variant" value=""/>
-    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/commerce_cucumber_selenium/display/redirect"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-11.0.6"/>
-    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="POM_PACKAGING" value="jar"/>
-    <property name="SERVICE_ID" value="jenkins"/>
-    <property name="COMPUTERNAME" value="LAPTOP-UN12E1CR"/>
-    <property name="user.script" value=""/>
-    <property name="POM_GROUPID" value="nopCommerce_Cucumber"/>
-    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
-    <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-commerce_cucumber_selenium-2"/>
-    <property name="JENKINS_SERVER_COOKIE" value="385af4e807faecb5"/>
-    <property name="HUDSON_URL" value="http://localhost:8080/"/>
-    <property name="ProgramData" value="C:\ProgramData"/>
-    <property name="java.version.date" value="2020-01-14"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="USERPROFILE" value="C:\Windows\system32\config\systemprofile"/>
-    <property name="CLASSPATH" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.6\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk-11.0.6/bin;C:\Program Files\Java\jdk-11.0.6/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-11.0.6\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\apache-maven-3.6.3\bin;C:\apache-maven-3.6.3\;C:\apache-maven-3.6.3\]\bin;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.class.path" value="E:\EclipseProjects\nopCommerce_Cucumber\target\test-classes;E:\EclipseProjects\nopCommerce_Cucumber\target\classes;C:\Users\varun\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\varun\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\varun\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\varun\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\varun\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\varun\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\varun\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\varun\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\varun\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\varun\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\varun\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\varun\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\varun\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\varun\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\varun\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\varun\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\varun\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\varun\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\varun\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\varun\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\varun\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\varun\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\varun\.m2\repository\io\cucumber\cucumber-core\5.5.0\cucumber-core-5.5.0.jar;C:\Users\varun\.m2\repository\io\cucumber\cucumber-gherkin\5.5.0\cucumber-gherkin-5.5.0.jar;C:\Users\varun\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.5.0\cucumber-gherkin-vintage-5.5.0.jar;C:\Users\varun\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\varun\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\varun\.m2\repository\io\cucumber\datatable\3.3.0\datatable-3.3.0.jar;C:\Users\varun\.m2\repository\io\cucumber\cucumber-plugin\5.5.0\cucumber-plugin-5.5.0.jar;C:\Users\varun\.m2\repository\io\cucumber\docstring\5.5.0\docstring-5.5.0.jar;C:\Users\varun\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\varun\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\varun\.m2\repository\io\cucumber\cucumber-java\5.5.0\cucumber-java-5.5.0.jar;C:\Users\varun\.m2\repository\io\cucumber\cucumber-junit\5.5.0\cucumber-junit-5.5.0.jar;C:\Users\varun\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\varun\.m2\repository\net\masterthought\cucumber-reporting\5.3.0\cucumber-reporting-5.3.0.jar;C:\Users\varun\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1.jar;C:\Users\varun\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\varun\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar;C:\Users\varun\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1.jar;C:\Users\varun\.m2\repository\org\apache\velocity\velocity-engine-core\2.1\velocity-engine-core-2.1.jar;C:\Users\varun\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\varun\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\varun\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\varun\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\varun\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\varun\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\varun\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20191001.1\owasp-java-html-sanitizer-20191001.1.jar;C:\Users\varun\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\varun\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\varun\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\varun\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\varun\.m2\repository\tech\grasshopper\extentreports-cucumber5-adapter\1.5.1\extentreports-cucumber5-adapter-1.5.1.jar;C:\Users\varun\.m2\repository\com\aventstack\extentreports\4.1.7\extentreports-4.1.7.jar;C:\Users\varun\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\varun\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\varun\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\varun\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\varun\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\varun\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\varun\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\varun\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\varun\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\varun\.m2\repository\net\sourceforge\cobertura\cobertura\2.1.1\cobertura-2.1.1.jar;C:\Users\varun\.m2\repository\org\ow2\asm\asm\5.0.1\asm-5.0.1.jar;C:\Users\varun\.m2\repository\org\ow2\asm\asm-tree\5.0.1\asm-tree-5.0.1.jar;C:\Users\varun\.m2\repository\org\ow2\asm\asm-commons\5.0.1\asm-commons-5.0.1.jar;C:\Users\varun\.m2\repository\org\ow2\asm\asm-util\5.0.1\asm-util-5.0.1.jar;C:\Users\varun\.m2\repository\org\ow2\asm\asm-analysis\5.0.1\asm-analysis-5.0.1.jar;C:\Users\varun\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\varun\.m2\repository\jaxen\jaxen\1.1.4\jaxen-1.1.4.jar;C:\Users\varun\.m2\repository\org\apache\ant\ant\1.8.3\ant-1.8.3.jar;C:\Users\varun\.m2\repository\org\apache\ant\ant-launcher\1.8.3\ant-launcher-1.8.3.jar;C:\Users\varun\.m2\repository\org\apache\ant\ant-junit\1.8.3\ant-junit-1.8.3.jar;C:\Users\varun\.m2\repository\org\mortbay\jetty\servlet-api-2.5\6.1.14\servlet-api-2.5-6.1.14.jar;C:\Users\varun\.m2\repository\org\mortbay\jetty\jetty\6.1.14\jetty-6.1.14.jar;C:\Users\varun\.m2\repository\org\mortbay\jetty\jetty-util\6.1.14\jetty-util-6.1.14.jar;C:\Users\varun\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\varun\.m2\repository\ch\qos\logback\logback-classic\1.0.13\logback-classic-1.0.13.jar;C:\Users\varun\.m2\repository\ch\qos\logback\logback-core\1.0.13\logback-core-1.0.13.jar;C:\Users\varun\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Program Files\Java\jdk-14.0.2\lib\tools.jar;C:\Users\varun\.m2\repository\org\minijax\minijax-undertow\0.4.14\minijax-undertow-0.4.14.jar;C:\Users\varun\.m2\repository\io\undertow\undertow-core\2.0.28.Final\undertow-core-2.0.28.Final.jar;C:\Users\varun\.m2\repository\org\jboss\logging\jboss-logging\3.4.0.Final\jboss-logging-3.4.0.Final.jar;C:\Users\varun\.m2\repository\org\jboss\xnio\xnio-api\3.3.8.Final\xnio-api-3.3.8.Final.jar;C:\Users\varun\.m2\repository\org\jboss\xnio\xnio-nio\3.3.8.Final\xnio-nio-3.3.8.Final.jar;C:\Users\varun\.m2\repository\org\minijax\minijax-core\0.4.14\minijax-core-0.4.14.jar;C:\Users\varun\.m2\repository\commons-fileupload\commons-fileupload\1.4\commons-fileupload-1.4.jar;C:\Users\varun\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\varun\.m2\repository\jakarta\enterprise\jakarta.enterprise.cdi-api\2.0.1\jakarta.enterprise.cdi-api-2.0.1.jar;C:\Users\varun\.m2\repository\jakarta\el\jakarta.el-api\3.0.2\jakarta.el-api-3.0.2.jar;C:\Users\varun\.m2\repository\jakarta\interceptor\jakarta.interceptor-api\1.2.3\jakarta.interceptor-api-1.2.3.jar;C:\Users\varun\.m2\repository\jakarta\ejb\jakarta.ejb-api\3.2.3\jakarta.ejb-api-3.2.3.jar;C:\Users\varun\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.1\jakarta.transaction-api-1.3.1.jar;C:\Users\varun\.m2\repository\jakarta\ws\rs\jakarta.ws.rs-api\2.1.6\jakarta.ws.rs-api-2.1.6.jar;C:\Users\varun\.m2\repository\org\glassfish\hk2\external\jakarta.inject\2.6.1\jakarta.inject-2.6.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="APPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Roaming"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="maven.home" value="C:\apache-maven-3.6.3"/>
-    <property name="java.class.path" value="C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;C:\apache-maven-3.6.3/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.6.3 C:\Windows\System32\config\systemprofile\AppData\Local\Jenkinswar\WEB-INF\lib\remoting-4.3.jar C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 51737"/>
-    <property name="Path" value="C:\Program Files\Java\jdk-11.0.6/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-11.0.6\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\apache-maven-3.6.3\bin;C:\apache-maven-3.6.3\;C:\apache-maven-3.6.3\]\bin;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\varun\AppData\Local\Temp\surefire6998990841899456087\surefirebooter13195190325401341255.jar C:\Users\varun\AppData\Local\Temp\surefire6998990841899456087 2020-08-30T17-19-52_052-jvmRun1 surefire9218663671498717912tmp surefire_011581191858312299043tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PATH+JDK" value="C:\Program Files\Java\jdk-11.0.6/bin"/>
-    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 165 Stepping 2, GenuineIntel"/>
-    <property name="java.vm.specification.version" value="11"/>
-    <property name="M2_HOME" value="C:\apache-maven-3.6.3"/>
+    <property name="surefire.test.class.path" value="E:\EclipseProjects\nopCommerce_Cucumber\target\test-classes;E:\EclipseProjects\nopCommerce_Cucumber\target\classes;C:\Users\varun\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\varun\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\varun\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\varun\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\varun\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\varun\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\varun\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\varun\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\varun\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\varun\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\varun\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\varun\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\varun\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\varun\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\varun\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\varun\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\varun\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\varun\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\varun\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\varun\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\varun\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\varun\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\varun\.m2\repository\io\cucumber\cucumber-core\5.5.0\cucumber-core-5.5.0.jar;C:\Users\varun\.m2\repository\io\cucumber\cucumber-gherkin\5.5.0\cucumber-gherkin-5.5.0.jar;C:\Users\varun\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.5.0\cucumber-gherkin-vintage-5.5.0.jar;C:\Users\varun\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\varun\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\varun\.m2\repository\io\cucumber\datatable\3.3.0\datatable-3.3.0.jar;C:\Users\varun\.m2\repository\io\cucumber\cucumber-plugin\5.5.0\cucumber-plugin-5.5.0.jar;C:\Users\varun\.m2\repository\io\cucumber\docstring\5.5.0\docstring-5.5.0.jar;C:\Users\varun\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\varun\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\varun\.m2\repository\io\cucumber\cucumber-java\5.5.0\cucumber-java-5.5.0.jar;C:\Users\varun\.m2\repository\io\cucumber\cucumber-junit\5.5.0\cucumber-junit-5.5.0.jar;C:\Users\varun\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\varun\.m2\repository\net\masterthought\cucumber-reporting\5.3.0\cucumber-reporting-5.3.0.jar;C:\Users\varun\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.1\jackson-databind-2.10.1.jar;C:\Users\varun\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.1\jackson-annotations-2.10.1.jar;C:\Users\varun\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.1\jackson-core-2.10.1.jar;C:\Users\varun\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.1\jackson-datatype-jsr310-2.10.1.jar;C:\Users\varun\.m2\repository\org\apache\velocity\velocity-engine-core\2.1\velocity-engine-core-2.1.jar;C:\Users\varun\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\varun\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\varun\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\varun\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\varun\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\varun\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\varun\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20191001.1\owasp-java-html-sanitizer-20191001.1.jar;C:\Users\varun\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\varun\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\varun\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\varun\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\varun\.m2\repository\tech\grasshopper\extentreports-cucumber5-adapter\1.5.1\extentreports-cucumber5-adapter-1.5.1.jar;C:\Users\varun\.m2\repository\com\aventstack\extentreports\4.1.7\extentreports-4.1.7.jar;C:\Users\varun\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\varun\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\varun\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\varun\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\varun\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\varun\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\varun\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\varun\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\varun\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\varun\.m2\repository\net\sourceforge\cobertura\cobertura\2.1.1\cobertura-2.1.1.jar;C:\Users\varun\.m2\repository\org\ow2\asm\asm\5.0.1\asm-5.0.1.jar;C:\Users\varun\.m2\repository\org\ow2\asm\asm-tree\5.0.1\asm-tree-5.0.1.jar;C:\Users\varun\.m2\repository\org\ow2\asm\asm-commons\5.0.1\asm-commons-5.0.1.jar;C:\Users\varun\.m2\repository\org\ow2\asm\asm-util\5.0.1\asm-util-5.0.1.jar;C:\Users\varun\.m2\repository\org\ow2\asm\asm-analysis\5.0.1\asm-analysis-5.0.1.jar;C:\Users\varun\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\varun\.m2\repository\jaxen\jaxen\1.1.4\jaxen-1.1.4.jar;C:\Users\varun\.m2\repository\org\apache\ant\ant\1.8.3\ant-1.8.3.jar;C:\Users\varun\.m2\repository\org\apache\ant\ant-launcher\1.8.3\ant-launcher-1.8.3.jar;C:\Users\varun\.m2\repository\org\apache\ant\ant-junit\1.8.3\ant-junit-1.8.3.jar;C:\Users\varun\.m2\repository\org\mortbay\jetty\servlet-api-2.5\6.1.14\servlet-api-2.5-6.1.14.jar;C:\Users\varun\.m2\repository\org\mortbay\jetty\jetty\6.1.14\jetty-6.1.14.jar;C:\Users\varun\.m2\repository\org\mortbay\jetty\jetty-util\6.1.14\jetty-util-6.1.14.jar;C:\Users\varun\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\varun\.m2\repository\ch\qos\logback\logback-classic\1.0.13\logback-classic-1.0.13.jar;C:\Users\varun\.m2\repository\ch\qos\logback\logback-core\1.0.13\logback-core-1.0.13.jar;C:\Users\varun\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Program Files\Java\jdk-14.0.2\lib\tools.jar;C:\Users\varun\.m2\repository\org\minijax\minijax-undertow\0.4.14\minijax-undertow-0.4.14.jar;C:\Users\varun\.m2\repository\io\undertow\undertow-core\2.0.28.Final\undertow-core-2.0.28.Final.jar;C:\Users\varun\.m2\repository\org\jboss\logging\jboss-logging\3.4.0.Final\jboss-logging-3.4.0.Final.jar;C:\Users\varun\.m2\repository\org\jboss\xnio\xnio-api\3.3.8.Final\xnio-api-3.3.8.Final.jar;C:\Users\varun\.m2\repository\org\jboss\xnio\xnio-nio\3.3.8.Final\xnio-nio-3.3.8.Final.jar;C:\Users\varun\.m2\repository\org\minijax\minijax-core\0.4.14\minijax-core-0.4.14.jar;C:\Users\varun\.m2\repository\commons-fileupload\commons-fileupload\1.4\commons-fileupload-1.4.jar;C:\Users\varun\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\varun\.m2\repository\jakarta\enterprise\jakarta.enterprise.cdi-api\2.0.1\jakarta.enterprise.cdi-api-2.0.1.jar;C:\Users\varun\.m2\repository\jakarta\el\jakarta.el-api\3.0.2\jakarta.el-api-3.0.2.jar;C:\Users\varun\.m2\repository\jakarta\interceptor\jakarta.interceptor-api\1.2.3\jakarta.interceptor-api-1.2.3.jar;C:\Users\varun\.m2\repository\jakarta\ejb\jakarta.ejb-api\3.2.3\jakarta.ejb-api-3.2.3.jar;C:\Users\varun\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.1\jakarta.transaction-api-1.3.1.jar;C:\Users\varun\.m2\repository\jakarta\ws\rs\jakarta.ws.rs-api\2.1.6\jakarta.ws.rs-api-2.1.6.jar;C:\Users\varun\.m2\repository\org\glassfish\hk2\external\jakarta.inject\2.6.1\jakarta.inject-2.6.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="OS" value="Windows_NT"/>
-    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
-    <property name="HUDSON_HOME" value="C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins"/>
-    <property name="PATH+MAVEN" value="C:\apache-maven-3.6.3/bin"/>
-    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/commerce_cucumber_selenium/2/"/>
-    <property name="SystemRoot" value="C:\Windows"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="user.dir" value="E:\EclipseProjects\nopCommerce_Cucumber"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/commerce_cucumber_selenium/"/>
-    <property name="USERDOMAIN" value="WORKGROUP"/>
-    <property name="MAVEN_HOME" value="C:\apache-maven-3.6.3"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BASE" value="C:\Program Files\Jenkins"/>
-    <property name="BUILD_NUMBER" value="2"/>
-    <property name="PROCESSOR_REVISION" value="a502"/>
-    <property name="JENKINS_URL" value="http://localhost:8080/"/>
-    <property name="ProgramW6432" value="C:\Program Files"/>
-    <property name="windir" value="C:\Windows"/>
+    <property name="user.home" value="C:\Users\varun"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\EclipseProjects\nopCommerce_Cucumber"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\varun\AppData\Local\Temp\surefire6998990841899456087\surefirebooter13195190325401341255.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.2+12-46"/>
+    <property name="user.name" value="varun"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="SystemDrive" value="C:"/>
-    <property name="maven3.interceptor" value="C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
-    <property name="WORKSPACE_TMP" value="C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\commerce_cucumber_selenium@tmp"/>
-    <property name="WORKSPACE" value="C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\commerce_cucumber_selenium"/>
-    <property name="maven3.interceptor.common" value="C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
-    <property name="WINSW_EXECUTABLE" value="C:\Program Files\Jenkins\jenkins.exe"/>
-    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules"/>
-    <property name="java.specification.version" value="11"/>
-    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
-    <property name="java.vendor.version" value="18.9"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\varun\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\varun\AppData\Local\Temp\"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="user.dir" value="E:\EclipseProjects\nopCommerce_Cucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-14.0.2/bin/server;C:/Program Files/Java/jdk-14.0.2/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-11.0.6\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\apache-maven-3.6.3\bin;C:\apache-maven-3.6.3\;C:\apache-maven-3.6.3\]\bin;C:\Users\varun\AppData\Local\Microsoft\WindowsApps;C:\Users\varun\AppData\Local\GitHubDesktop\bin;C:\Users\varun\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\bin;;C:\Users\varun\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.2+12-46"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase classname="Customers" name="Add new Customer" time="33.37"/>
-  <testcase classname="Login" name="Successful Login with Valid Credentials" time="28.275"/>
+  <testcase name="Add new Customer" classname="Customers" time="33.992">
+    <system-out><![CDATA[
+@sanity
+Scenario: Add new Customer                                                                # Features/Customers.feature:12
+08-30-2020 17:20:00 Steps.java INFO  [main] nopcommerce 67 - ********* Launching browser***************
+  Given User Launch Chrome browser                                                        # stepDefinitions.Steps.user_Launch_Chrome_browser()
+08-30-2020 17:20:00 Steps.java INFO  [main] nopcommerce 73 - ********* Opening URL***************
+  When User opens URL "http://admin-demo.nopcommerce.com/login"                           # stepDefinitions.Steps.user_opens_URL(java.lang.String)
+08-30-2020 17:20:04 Steps.java INFO  [main] nopcommerce 81 - ********* Proving user info ***************
+  And User enters Email as "admin@yourstore.com" and Password as "admin"                  # stepDefinitions.Steps.user_enters_Email_as_and_Password_as(java.lang.String,java.lang.String)
+  And Click on Login                                                                      # stepDefinitions.Steps.click_on_Login()
+08-30-2020 17:20:13 Steps.java INFO  [main] nopcommerce 128 - ********* Adding Customer Scenario started  ***************
+08-30-2020 17:20:13 Steps.java INFO  [main] nopcommerce 130 - ********* Dashboard Display validation ***************
+  Then User can view Dashboad                                                             # stepDefinitions.Steps.user_can_view_Dashboad()
+  When User click on customers Menu                                                       # stepDefinitions.Steps.user_click_on_customers_Menu()
+  And click on customers Menu Item                                                        # stepDefinitions.Steps.click_on_customers_Menu_Item()
+  And click on Add new button                                                             # stepDefinitions.Steps.click_on_Add_new_button()
+  Then User can view Add new customer page                                                # stepDefinitions.Steps.user_can_view_Add_new_customer_page()
+08-30-2020 17:20:21 Steps.java INFO  [main] nopcommerce 162 - ********* Providing Customer details ***************
+  When User enter customer info                                                           # stepDefinitions.Steps.user_enter_customer_info()
+  And click on Save button                                                                # stepDefinitions.Steps.click_on_Save_button()
+08-30-2020 17:20:29 Steps.java INFO  [main] nopcommerce 188 - ********* Add customer validation ***************
+  Then User can view confirmation message "The new customer has been added successfully." # stepDefinitions.Steps.user_can_view_confirmation_message(java.lang.String)
+08-30-2020 17:20:30 Steps.java INFO  [main] nopcommerce 118 - *********Closing application ***************
+  And close browser                                                                       # stepDefinitions.Steps.close_browser()
+]]></system-out>
+    <system-err><![CDATA[Aug 30, 2020 5:19:56 PM io.cucumber.junit.Cucumber <init>
+WARNING: By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 26748
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598788198.070][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Aug 30, 2020 5:20:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Successful Login with Valid Credentials" classname="Login" time="28.365">
+    <system-out><![CDATA[
+@sanity
+Scenario: Successful Login with Valid Credentials                        # Features/Login.feature:5
+08-30-2020 17:20:33 Steps.java INFO  [main] nopcommerce 67 - ********* Launching browser***************
+  Given User Launch Chrome browser                                       # stepDefinitions.Steps.user_Launch_Chrome_browser()
+08-30-2020 17:20:33 Steps.java INFO  [main] nopcommerce 73 - ********* Opening URL***************
+  When User opens URL "http://admin-demo.nopcommerce.com/login"          # stepDefinitions.Steps.user_opens_URL(java.lang.String)
+08-30-2020 17:20:37 Steps.java INFO  [main] nopcommerce 81 - ********* Proving user info ***************
+  And User enters Email as "admin@yourstore.com" and Password as "admin" # stepDefinitions.Steps.user_enters_Email_as_and_Password_as(java.lang.String,java.lang.String)
+  And Click on Login                                                     # stepDefinitions.Steps.click_on_Login()
+08-30-2020 17:20:47 Steps.java INFO  [main] nopcommerce 95 - *********Login Validation starts ***************
+08-30-2020 17:20:47 Steps.java INFO  [main] nopcommerce 104 - *********Login successfull ***************
+  Then Page Title should be "Dashboard / nopCommerce administration"     # stepDefinitions.Steps.page_Title_should_be(java.lang.String)
+08-30-2020 17:20:52 Steps.java INFO  [main] nopcommerce 112 - *********Logout from application***************
+  When User click on Log out link                                        # stepDefinitions.Steps.user_click_on_Log_out_link()
+08-30-2020 17:20:53 Steps.java INFO  [main] nopcommerce 95 - *********Login Validation starts ***************
+08-30-2020 17:20:53 Steps.java INFO  [main] nopcommerce 104 - *********Login successfull ***************
+  Then Page Title should be "Your store. Login"                          # stepDefinitions.Steps.page_Title_should_be(java.lang.String)
+08-30-2020 17:20:58 Steps.java INFO  [main] nopcommerce 118 - *********Closing application ***************
+  And close browser                                                      # stepDefinitions.Steps.close_browser()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 1809
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598788231.717][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Aug 30, 2020 5:20:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
 </testsuite>

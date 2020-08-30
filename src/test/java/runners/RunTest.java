@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 				dryRun = false,
 				monochrome = true,
 				strict = false,
-				plugin = {"pretty","html:test-output"},
+						plugin = {"pretty","html:test-output","json:target/cucumber-reports/cucumber.json","junit:target/cucumber-reports/cucumber.xml", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 				tags = {"@sanity"}
 		
 		)

@@ -26,7 +26,13 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
 
-            </plugin>         
+            </plugin>
+
+            <plugin>
+            	<groupId>org.apache.maven.plugins</groupId>
+            	<artifactId>maven-surefire-plugin</artifactId>
+            	<version>3.0.0-M5</version>
+            </plugin>
         </plugins>
     </build>
     
@@ -37,6 +43,7 @@
 			<version>4.13</version>
 			<scope>test</scope>
 		</dependency>
+		
 
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
@@ -90,6 +97,15 @@
 			<version>2.2</version>
 			<scope>test</scope>
 		</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports-cucumber4-adapter -->
+	
+<dependency>
+   <groupId>tech.grasshopper</groupId>
+   <artifactId>extentreports-cucumber5-adapter</artifactId>
+   <version>1.5.1</version>
+   <scope>test</scope>
+</dependency>	
 	
 
 		<!-- https://mvnhttp://marketplace.eclipse.org/marketplace-client-intro?mpc_install=2427135repository.com/artifact/net.sourceforge.cobertura/cobertura -->
